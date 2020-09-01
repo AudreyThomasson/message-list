@@ -1,5 +1,5 @@
-const eventHub = document.querySelector(".container")
 const contentTarget = document.querySelector(".themes")
+const eventHub = document.querySelector(".themes")
 
 // Listen for browser generated click event in this component
 eventHub.addEventListener("click", clickEvent => {
