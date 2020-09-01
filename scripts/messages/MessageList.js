@@ -27,7 +27,7 @@ const render = messageArray => {
 /*
     Color the messages when one of the buttons in the ThemeButtons
     component is clicked.
-*/
+// ******BELOW IS THE EXAMPLE OF DOING IT WITH THE CODE COUPLED*****
 // e is the event that happens, can be named something else
 // addEventListener is listening for anything clicked in theme class div
 // document.querySelector(".themes").addEventListener("click", e => {

@@ -16,13 +16,15 @@ eventHub.addEventListener("click", clickEvent => {
             which color was chosen
         */
         const colorChosenEvent = new CustomEvent("colorChosen", {
+                 // new CustomEvent is a built in function
             detail: {
+                // must use the key word DETAIL or it will not work
                 color: chosenColor
             }
         })
 
         eventHub.dispatchEvent(colorChosenEvent)
-        // now lives on the container
+        // this info now lives on the container in the index.html
     }
 })
 
